@@ -2,9 +2,9 @@
 
 2. Run the below Sql query to create two tables
 
-a.) CREATE TABLE FileChanges ( Id INT PRIMARY KEY IDENTITY, ChangeType NVARCHAR(50) NOT NULL, FilePath NVARCHAR(255) NOT NULL, ChangeTime DATETIME NOT NULL );
+    a.) CREATE TABLE FileChanges ( Id INT PRIMARY KEY IDENTITY, ChangeType NVARCHAR(50) NOT NULL, FilePath NVARCHAR(255) NOT NULL, ChangeTime DATETIME NOT NULL );
 
-b)Create Table OccurrenceLogs ( Id INT PRIMARY KEY IDENTITY, OccurrenceCount INT NOT NULL, Logtime DATETIME NOT NULL, FilePath NVARCHAR(255) NOT NULL, MagicString NVARCHAR(50) NOT NULL );
+    b)Create Table OccurrenceLogs ( Id INT PRIMARY KEY IDENTITY, OccurrenceCount INT NOT NULL, Logtime DATETIME NOT NULL, FilePath NVARCHAR(255) NOT NULL, MagicString NVARCHAR(50) NOT NULL );
 
 3. FileChanges - In the given Directory if any File is added / deleted /modified those details will be logged in this table.
 
