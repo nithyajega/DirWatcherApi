@@ -20,7 +20,7 @@
 
     Select * from OccurrenceLogs
 
-8. The FileChanges table will be updated with the changes made in the directory and in the OccurrenceLogs table if the given magic string exists it will update the count of occurrences.
+8. The FileChanges table will be updated with the changes made in the directory and in the OccurrenceLogs table, if the given magic string exists it will update the count of occurrences.
 
 9. From the API we can "Start" and "Stop" the task manually.
 
